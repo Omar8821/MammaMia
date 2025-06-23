@@ -1,4 +1,4 @@
-ervices:
+services:
   - type: web
     name: MammaMia  
     runtime: python  
@@ -14,4 +14,6 @@ ervices:
       # Prompts for a value in the Render Dashboard on creation
       # (useful for secrets)
       - key: TMDB_KEY
+        sync: false
+      - key: PROXY
         sync: false
